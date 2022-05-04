@@ -1,0 +1,13 @@
+.popup-map{
+    background-color: white;
+}
+.popup-header{
+    background-color: lightgray;
+    color: green;
+    padding: 0.4rem 0.1rem;
+}
+.popup-details{
+    padding: 0.2rem;
+    border: 1px solid lightgray;
+    min-height: 50px;
+}

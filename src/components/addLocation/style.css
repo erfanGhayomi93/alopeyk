@@ -1,0 +1,95 @@
+
+.container {
+    max-width: 650px;
+    width: 80%;
+    margin: 3rem auto;
+}
+
+.top-box {
+    background-color: var(--blue);
+    color: white;
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border: 1px solid var(--blue);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100%;
+    margin: auto;
+    border: 1px solid var(--blue);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+.form-control {
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    margin: 1rem auto;
+    align-items: center;
+}
+
+.label-form {
+    width: 200px;
+    font-weight: 600;
+}
+
+.input-form {
+    width: 400px;
+    height: 50px;
+    font-size: 1.1rem;
+}
+
+.perview-map {
+    width: 400px;
+    height: 200px;
+    border: 1px solid rgb(118, 118, 118);
+    box-sizing: border-box;
+}
+
+.logo-map {
+    width: 400px;
+}
+
+.img-upload {
+    width: 30%;
+    fill: var(--blue);
+}
+
+.select-form {
+    width: 400px;
+    height: 50px;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem 0 0;
+}
+
+.w-250{
+    width: 250px;
+}
+
+.button-save{
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+}
+.button-cancel{
+    background-color: gray;
+    color: white;
+    border: 1px solid gray;
+}
+.button:nth-child(1){
+    margin-right: 0.75rem;
+}
+  

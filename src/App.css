@@ -1,0 +1,63 @@
+:root {
+  --blue: #6f6feb
+}
+
+*,
+body {
+  font-family: Roboto;
+}
+
+p {
+  margin: 0;
+}
+
+.px-10 {
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.p-5 {
+  padding: 5px !important;
+  box-sizing: border-box;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.root {
+  width: 100%;
+  height: 100vh;
+}
+
+.container-map {
+  width: 100%;
+  height: 100%;
+}
+
+.button {
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.button-save {
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+}
+
+.button-cancel {
+  background-color: gray;
+  color: white;
+  border: 1px solid gray;
+}
+
+.button-edit {
+  background-color: var(--blue);
+  color: white;
+  border: 1px solid var(--blue);
+}
